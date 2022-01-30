@@ -11,6 +11,11 @@ Feel free to look at the notebooks!
 <br>
 Found in `research\notebookplayground`
 
+### TODO
+
+- Neural Networks - AI Training
+- Dash Web interface
+- API Hooks
 
 ## Links - Not active yet
 #### To view the live application visit 

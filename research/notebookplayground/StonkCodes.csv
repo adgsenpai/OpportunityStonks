@@ -1,343 +1,343 @@
-,Code,Company
-0,PRX,Prosus N.V. 
-1,ANH,Anheuser-Busch Inbev 
-2,BTI,British American Tobacco 
-3,GLN,Glencore plc 
-4,CFR,Compagnie Fin Richemont 
-5,BHP,BHP Group plc 
-6,NPN,Naspers Limited - N 
-7,AGL,Anglo American plc 
-8,AMS,Anglo American Platinum Ltd 
-9,FSR,Firstrand Limited 
-10,MTN,MTN Group Limited 
-11,VOD,Vodacom Group Limited 
-12,SBK,Standard Bank Group 
-13,CPI,Capitec Bank Holdings 
-14,SOL,Sasol Limited 
-15,S32,South32 Limited 
-16,IMP,Impala Platinum Holdings Limited 
-17,MNP,Mondi plc 
-18,KIO,Kumba Iron Ore 
-19,SSW,Sibanye Stillwater Limited 
-20,ABG,Absa Group Limited 
-21,GFI,Gold Fields Limited 
-22,SLM,Sanlam Limited 
-23,SHP,Shoprite Holdings Limited 
-24,ANG,Anglogold Ashanti 
-25,BID,Bid Corporation Limited 
-26,DSY,Discovery Limited 
-27,NED,Nedbank Group Limited 
-28,APN,Aspen Pharmacare Holdings Limited 
-29,PPH,Pepkor Holdings Limited 
-30,NHM,Northam Platinum Limited 
-31,RMI,Rand Merchant Investment Holdings 
-32,CLS,Clicks Group Limited 
-33,REM,Remgro Limited 
-34,OMU,Old Mutual Limited 
-35,NRP,Nepi Rockcastle plc 
-36,BVT,Bidvest Group 
-37,INP,Investec plc 
-38,EXX,Exxaro Resources Limited 
-39,RNI,Reinet Investments S.C.A. 
-40,WHL,Woolworths Holdings Limited 
-41,MCG,MultiChoice Group 
-42,MRP,Mr Price Group 
-43,GRT,Growthpoint Properties Limited 
-44,ARI,African Rainbow Minerals 
-45,MEI,Mediclinic International plc 
-46,QLT,Quilter plc 
-47,RBP,Royal Bafokeng Platinum Limited 
-48,TFG,The Foschini Group 
-49,DGH,Distell Group Holdings 
-50,VVO,Vivo Energy plc 
-51,HMN,Hammerson plc 
-52,TBS,Tiger Brands Limited 
-53,N91,Ninety One plc 
-54,LHC,Life Healthcare Group 
-55,TXT,Textainer Group Holdings 
-56,HAR,Harmony Gold Mining Company 
-57,SPP,Spar Group Limited 
-58,TCP,Transaction Capital Ltd 
-59,SRE,Sirius Real Estate 
-60,SNT,Santam Limited 
-61,CCO,Capital & Counties Properties plc 
-62,DCP,Dis-Chem Pharmacies Limited 
-63,MSP,MAS Real Estate Inc 
-64,MTM,Momentum Metropolitan Holdings 
-65,LBH,Liberty Holdings Limited 
-66,INL,Investec Limited 
-67,APH,Alphamin Resources Corporation 
-68,BAW,Barloworld Limited 
-69,PIK,Pick n Pay Stores Limited 
-70,AVI,AVI Limited 
-71,TKG,Telkom SA Limited 
-72,RDF,Redefine Properties Limited 
-73,RES,Resilient REIT Limited 
-74,SAP,Sappi Limited 
-75,TRU,Truworths International Limited 
-76,BYI,Bytes Technology Group 
-77,MTH,Motus Holdings Limited 
-78,SNH,Steinhoff International Holdings NV 
-79,NTC,Netcare Limited 
-80,ITE,Italtile Limited 
-81,KST,PSG Konsult Limited 
-82,PSG,PSG Group Limited 
-83,CML,Coronation Fund Managers 
-84,KRO,Karooooo Ltd 
-85,NY1,Ninety One Limited 
-86,EQU,Equites Property Fund Limited 
-87,FFA,Fortress REIT Limited - A 
-88,LTE,Lighthouse Capital Limited 
-89,RCL,RCL Foods Limited 
-90,IPL,Imperial Logistics Limited 
-91,MSM,Massmart Holdings Limited 
-92,AFE,AECI Limited 
-93,HYP,Hyprop Investments Limited 
-94,SPG,Super Group Limited 
-95,TGA,Thungela Resources Limited 
-96,IAP,Irongate Group 
-97,TSG,Tsogo Sun Gaming 
-98,ACL,ArcelorMittal South Africa Limited 
-99,VKE,Vukile Property Fund Limited 
-100,KAP,Kap Industrial Holdings Limited 
-101,STP,Stenprop Limited 
-102,DRD,DRDGOLD Limited 
-103,JSE,JSE Limited 
-104,IPF,Investec Property Fund Limited 
-105,OMN,Omnia Holdings Limited 
-106,EPP,EPP N.V. 
-107,GTC,Globe Trade Centre S.A. 
-108,AIP,Adcock Ingram Holdings 
-109,AIL,African Rainbow Capital Investments 
-110,RLO,Reunert Limited 
-111,ADH,ADvTECH Limited 
-112,AFT,Afrimat Limited 
-113,PAN,Pan African Resources plc 
-114,COH,Curro Holdings Limited 
-115,DTC,Datatec Limited 
-116,JBL,Jubilee Metals Group Plc 
-117,OCE,Oceana Group Limited 
-118,THA,Tharisa plc 
-119,PPC,PPC Limited 
-120,ARL,Astral Foods Limited 
-121,CSB,Cashbuild Limited 
-122,FBR,Famous Brands Limited 
-123,SSS,Stor-Age Property REIT 
-124,SUI,Sun International Limited 
-125,WBO,Wilson Bayly Holmes-Ovcon Limited 
-126,RBX,Raubex Group Limited 
-127,HCI,Hosken Consolidated Investments Limited 
-128,MUR,Murray & Roberts Holdings Limited 
-129,SAC,SA Corporate Real Estate Fund Limited 
-130,BAT,Brait SE 
-131,ATT,Attacq Limited 
-132,MTA,Metair Investments Limited 
-133,AFH,Alexander Forbes Group Holdings Limited 
-134,RAV,Raven Property Group Limited 
-135,EMI,Emira Property Fund Limited 
-136,MPT,Mpact Limited 
-137,ZED,Zeder Investments Limited 
-138,GSH,Grindrod Shipping Holdings 
-139,TGO,Tsogo Sun Hotels 
-140,MED,Middle East Diamond Resources Limited 
-141,SHG,Sea Harvest Group Limited 
-142,BLU,Blue Label Telecoms 
-143,L2D,Liberty Two Degrees Limited 
-144,REN,Renergen Limited 
-145,MIX,Mix Telematics Limited 
-146,HDC,Hudaco Industries Limited 
-147,LBR,Libstar Holdings Limited 
-148,GML,Gemfields Group Limited 
-149,L4L,Long4Life Limited 
-150,KAL,Kaap Agri Limited 
-151,NT1,Net 1 UEPS Technologies Inc 
-152,FFB,Fortress REIT Limited - B 
-153,MTNZF,MTN Zakhele Futhi 
-154,PPE,Purple Group Limited 
-155,CLI,Clientele Limited 
-156,AHB,Arrowhead Properties Limited B 
-157,RFG,RFG Holdings Limited 
-158,AEG,Aveng Group Limited 
-159,MRF,Merafe Resources Limited 
-160,GND,Grindrod Limited 
-161,AEL,Allied Electronics Corporation 
-162,CAT,Caxton & CTP Publishers & Printers Limited 
-163,EXP,Exemplar Reitail Limited 
-164,CLH,City Lodge Hotels Limited 
-165,IVT,Invicta Holdings Limited 
-166,SCD,Schroder European Real Estate Investment Trust 
-167,LEW,Lewis Group Limited 
-168,ACT,Afrocentric Investment Corp 
-169,SDO,STADIO Holdings Limited 
-170,HET,Heriot REIT Limited 
-171,HIL,Homechoice International plc 
-172,TDH,Tradehold Limited 
-173,WEZ,Wesizwe Platinum Limited 
-174,OAO,Oando PLC 
-175,NPK,Nampak Limited 
-176,CTA,Capital Appreciation Limited 
-177,SYG,Sygnia Limited 
-178,YYLBEE,YeboYethu (RF) Limited 
-179,DIA,Dipula Income Fund Limited A 
-180,SBP,Sabvest Capital Limited 
-181,OCT,Octodec Investments Limited 
-182,RMH,RMB Holdings Limited 
-183,FVT,Fairvest Property Holdings 
-184,CRP,Capital & Regional plc 
-185,AVV,Alviva Holdings Limited 
-186,SUR,Spur Corporation Limited 
-187,DRA,DRA Global Limited 
-188,CMH,Combined Motor Holdings Limited 
-189,TTO,Trustco Group Holdings Limited 
-190,SEA,Spear Reit Limited 
-191,MDI,Master Drilling Group Limited 
-192,ARH,ARB Holdings Limited 
-193,BWN,Balwin Properties Limited 
-194,ACS,Acsion Limited 
-195,BRN,Brimstone Investment Corporation - N Shares 
-196,SAR,Safari Investments RSA Limited 
-197,ENX,enX Group Limited 
-198,EMN,E Media Holdings Limited - N Shares 
-199,HLM,Hulamin Limited 
-200,MFL,Metrofile Holdings Limited 
-201,EPE,EPE Capital Partners Limited 
-202,OAS,Oasis Crescent Property Fund 
-203,ORN,Orion Minerals Limited 
-204,UPL,Universal Partners Limited 
-205,TEX,Texton Property Fund Limited 
-206,GPL,Grand Parade Investments Limited 
-207,BEL,Bell Equipment Limited 
-208,AYO,AYO Tech Solutions 
-209,YRK,York Timber Holdings Limited 
-210,ILU,Indluplace Properties Limited 
-211,DIB,Dipula Income Fund Limited B 
-212,HPR,Hosken Passenger Logistics and Rail Limited 
-213,APF,Accelerate Property Fund Ltd 
-214,QFH,Quantum Foods Holdings 
-215,SOLBE1,Sasol Limited - BEE 
-216,CHP,Choppies Enterprises Limited 
-217,AHA,Arrowhead Properties Limited A 
-218,PBG,PBT Group Limited 
-219,SFN,Sasfin Holdings Limited 
-220,EOH,EOH Holdings 
-221,TRE,Trencor Limited 
-222,TPF,Transcend Residential Property Fund Limited 
-223,BCF,Bowler Metcalf Limited 
-224,MST,Mustek Limited 
-225,FGL,Finbond Group Limited 
-226,DNB,Deneb Investments Limited 
-227,SNV,Santova Limited 
-228,NVS,Novus Holdings Limited 
-229,MMP,Marshall Monteagle PLC 
-230,WSL,Wescoal Holdings Limited 
-231,OLG,Onelogix Group Limited 
-232,TMT,Trematon Capital Investments Limited 
-233,ART,Argent Industrial Limited 
-234,DKR,Deutsche Konsum REIT-AG 
-235,NWL,Nu-World Holdings Limited 
-236,KP2,Kore Potash Plc 
-237,ADR,Adcorp Holdings Limited 
-238,TON,Tongaat Hulett Limited 
-239,EPS,Eastern Platinum Limited 
-240,HUG,Huge Group Limited 
-241,CND,Conduit Capital Limited 
-242,CKS,Crookes Brothers Limited 
-243,TPC,Transpaco Limited 
-244,CGR,Calgro M3 Holdings Limited 
-245,ALH,Alaris Holdings Limited 
-246,VUN,Vunani Limited 
-247,SEP,Sephaku Holdings Limited 
-248,NVE,Nvest Financial Holdings Limited 
-249,AEE,African Equity Empowerment Investments 
-250,DLT,Delta Property Fund Limited 
-251,ISB,Insimbi Industrial Holdings Ltd 
-252,ASC,Ascendis Health Limited 
-253,RSG,Resource Generation Limited 
-254,NRL,Newpark REIT Limited 
-255,RHB,RH Bophelo Limited 
-256,SOH,South Ocean Holdings 
-257,WKF,Workforce Holdings Limited 
-258,BUC,Buffalo Coal Corporation 
-259,BIK,Brikor Limited 
-260,TRL,Trellidor Holdings Limited 
-261,SEB,Sebata Holdings Limited 
-262,BAU,Bauba Resources Limited 
-263,AME,African Media Entertainment 
-264,EMH,E Media Holdings Limited 
-265,AVL,Advanced Health Limited 
-266,BRT,Brimstone Investment Corporation 
-267,ARA,Astoria Investments Limited 
-268,ETO,Etion Limited 
-269,ELI,Ellies Holdings Limited 
-270,LNF,London Finance & Investment Group Plc 
-271,HUL,Hulisani Limited 
-272,FSE,Firestone Energy Limited 
-273,KBO,Kibo Energy PLC 
-274,PFB,Premier Fishing and Brands 
-275,REA,Rebosis Property Fund - A Shares 
-276,RTN,Rex Trueform Group - N Shares 
-277,CVW,Castleview Property Fund Limited 
-278,REB,Rebosis Property Fund 
-279,CMO,Chrometco Limited 
-280,MCZ,MC Mining Limited 
-281,CSG,CSG Holdings Limited 
-282,ISA,ISA Holdings Limited 
-283,4SI,4Sight Holdings Limited 
-284,CGN,Cognition Holdings Limited 
-285,PPR,Putprop Limited 
-286,EEL,Efora Energy Limited 
-287,LAB,Labat Africa Limited 
-288,PMV,Primeserv Group Limited 
-289,SSK,Stefanutti Stocks Holdings Limited 
-290,EUZ,Europa Metals Limited 
-291,RNG,Randgold And Exploration Company 
-292,JSC,Jasco Electronics Holdings 
-293,AON,African and Overseas Enterprises - N Shares 
-294,TLM,TeleMasters Holdings Limited 
-295,UAT,Union Atlantic Minerals Limited 
-296,BSR,Basil Read Holdings Limited 
-297,AHL,AH-Vest Limited 
-298,HWA,Hwange Colliery Company Limited 
-299,RTO,Rex Trueform Group 
-300,SVB,SilverBridge Holdings Limited 
-301,NCS,Nictus Limited 
-302,PEM,Pembury Lifestyle Group 
-303,CAC,CAFCA Limited 
-304,PSV,PSV Holdings Limited 
-305,ILE,Imbalie Beauty Limited 
-306,MRI,Mine Restoration Investments Limited 
-307,TAS,Taste Holdings Limited 
-308,AOO,African and Overseas Enterprises Limited 
-309,VIS,Visual International Holdings Limited 
-310,ADW,African Dawn Capital 
-311,ECS,Ecsponent Limited 
-312,GLI,Go Life International Ltd 
-313,WEA,WG Wearne Limited 
-314,NFP,New Frontier Properties Limited 
-315,NUT,Nutritional Holdings Limited 
-316,ACZ,Arden Capital Limited 
-317,PHM,Phumelela Gaming And Leisure Limited 
-318,RPL,RDI REIT PLC 
-319,ACE,Accentuate Limited 
-320,RDI,Rockwell Diamonds Incorporated 
-321,AFX,African Oxygen Limited 
-322,ACG,Anchor Group Limited 
-323,ALP,Atlantic Leaf Properties Limited 
-324,TBG,Tiso Blackstar Group SE 
-325,CTK,Cartrack Holdings 
-326,UCP,Unicorn Capital Partners Limited 
-327,VLE,Value Group Limited 
-328,COM,Comair Limited 
-329,CIL,Consolidated Infrastructure Group 
-330,EFG,Efficient Group Limited 
-331,ELR,ELB Group Limited 
-332,ESR,Esor Limited 
-333,FDP,Freedom Property Fund Limited 
-334,GAI,Gaia Infrastructure Capital Limited 
-335,GRF,Group Five Limited 
-336,HPB,Hospitality Property Fund - B 
-337,IDQ,Indequity Group Limited 
-338,KDV,Kaydav Group Limited 
-339,MZR,Mazor Group Limited 
-340,MLE,Mettle Investments Limited 
-341,MNK,Montauk Holdings Limited 
+Code,Company
+PRX,Prosus N.V. 
+ANH,Anheuser-Busch Inbev 
+BTI,British American Tobacco 
+GLN,Glencore plc 
+CFR,Compagnie Fin Richemont 
+BHP,BHP Group plc 
+NPN,Naspers Limited - N 
+AGL,Anglo American plc 
+AMS,Anglo American Platinum Ltd 
+FSR,Firstrand Limited 
+MTN,MTN Group Limited 
+VOD,Vodacom Group Limited 
+SBK,Standard Bank Group 
+CPI,Capitec Bank Holdings 
+SOL,Sasol Limited 
+S32,South32 Limited 
+IMP,Impala Platinum Holdings Limited 
+MNP,Mondi plc 
+KIO,Kumba Iron Ore 
+SSW,Sibanye Stillwater Limited 
+ABG,Absa Group Limited 
+GFI,Gold Fields Limited 
+SLM,Sanlam Limited 
+SHP,Shoprite Holdings Limited 
+ANG,Anglogold Ashanti 
+BID,Bid Corporation Limited 
+DSY,Discovery Limited 
+NED,Nedbank Group Limited 
+APN,Aspen Pharmacare Holdings Limited 
+PPH,Pepkor Holdings Limited 
+NHM,Northam Platinum Limited 
+RMI,Rand Merchant Investment Holdings 
+CLS,Clicks Group Limited 
+REM,Remgro Limited 
+OMU,Old Mutual Limited 
+NRP,Nepi Rockcastle plc 
+BVT,Bidvest Group 
+INP,Investec plc 
+EXX,Exxaro Resources Limited 
+RNI,Reinet Investments S.C.A. 
+WHL,Woolworths Holdings Limited 
+MCG,MultiChoice Group 
+MRP,Mr Price Group 
+GRT,Growthpoint Properties Limited 
+ARI,African Rainbow Minerals 
+MEI,Mediclinic International plc 
+QLT,Quilter plc 
+RBP,Royal Bafokeng Platinum Limited 
+TFG,The Foschini Group 
+DGH,Distell Group Holdings 
+VVO,Vivo Energy plc 
+HMN,Hammerson plc 
+TBS,Tiger Brands Limited 
+N91,Ninety One plc 
+LHC,Life Healthcare Group 
+TXT,Textainer Group Holdings 
+HAR,Harmony Gold Mining Company 
+SPP,Spar Group Limited 
+TCP,Transaction Capital Ltd 
+SRE,Sirius Real Estate 
+SNT,Santam Limited 
+CCO,Capital & Counties Properties plc 
+DCP,Dis-Chem Pharmacies Limited 
+MSP,MAS Real Estate Inc 
+MTM,Momentum Metropolitan Holdings 
+LBH,Liberty Holdings Limited 
+INL,Investec Limited 
+APH,Alphamin Resources Corporation 
+BAW,Barloworld Limited 
+PIK,Pick n Pay Stores Limited 
+AVI,AVI Limited 
+TKG,Telkom SA Limited 
+RDF,Redefine Properties Limited 
+RES,Resilient REIT Limited 
+SAP,Sappi Limited 
+TRU,Truworths International Limited 
+BYI,Bytes Technology Group 
+MTH,Motus Holdings Limited 
+SNH,Steinhoff International Holdings NV 
+NTC,Netcare Limited 
+ITE,Italtile Limited 
+KST,PSG Konsult Limited 
+PSG,PSG Group Limited 
+CML,Coronation Fund Managers 
+KRO,Karooooo Ltd 
+NY1,Ninety One Limited 
+EQU,Equites Property Fund Limited 
+FFA,Fortress REIT Limited - A 
+LTE,Lighthouse Capital Limited 
+RCL,RCL Foods Limited 
+IPL,Imperial Logistics Limited 
+MSM,Massmart Holdings Limited 
+AFE,AECI Limited 
+HYP,Hyprop Investments Limited 
+SPG,Super Group Limited 
+TGA,Thungela Resources Limited 
+IAP,Irongate Group 
+TSG,Tsogo Sun Gaming 
+ACL,ArcelorMittal South Africa Limited 
+VKE,Vukile Property Fund Limited 
+KAP,Kap Industrial Holdings Limited 
+STP,Stenprop Limited 
+DRD,DRDGOLD Limited 
+JSE,JSE Limited 
+IPF,Investec Property Fund Limited 
+OMN,Omnia Holdings Limited 
+EPP,EPP N.V. 
+GTC,Globe Trade Centre S.A. 
+AIP,Adcock Ingram Holdings 
+AIL,African Rainbow Capital Investments 
+RLO,Reunert Limited 
+ADH,ADvTECH Limited 
+AFT,Afrimat Limited 
+PAN,Pan African Resources plc 
+COH,Curro Holdings Limited 
+DTC,Datatec Limited 
+JBL,Jubilee Metals Group Plc 
+OCE,Oceana Group Limited 
+THA,Tharisa plc 
+PPC,PPC Limited 
+ARL,Astral Foods Limited 
+CSB,Cashbuild Limited 
+FBR,Famous Brands Limited 
+SSS,Stor-Age Property REIT 
+SUI,Sun International Limited 
+WBO,Wilson Bayly Holmes-Ovcon Limited 
+RBX,Raubex Group Limited 
+HCI,Hosken Consolidated Investments Limited 
+MUR,Murray & Roberts Holdings Limited 
+SAC,SA Corporate Real Estate Fund Limited 
+BAT,Brait SE 
+ATT,Attacq Limited 
+MTA,Metair Investments Limited 
+AFH,Alexander Forbes Group Holdings Limited 
+RAV,Raven Property Group Limited 
+EMI,Emira Property Fund Limited 
+MPT,Mpact Limited 
+ZED,Zeder Investments Limited 
+GSH,Grindrod Shipping Holdings 
+TGO,Tsogo Sun Hotels 
+MED,Middle East Diamond Resources Limited 
+SHG,Sea Harvest Group Limited 
+BLU,Blue Label Telecoms 
+L2D,Liberty Two Degrees Limited 
+REN,Renergen Limited 
+MIX,Mix Telematics Limited 
+HDC,Hudaco Industries Limited 
+LBR,Libstar Holdings Limited 
+GML,Gemfields Group Limited 
+L4L,Long4Life Limited 
+KAL,Kaap Agri Limited 
+NT1,Net 1 UEPS Technologies Inc 
+FFB,Fortress REIT Limited - B 
+MTNZF,MTN Zakhele Futhi 
+PPE,Purple Group Limited 
+CLI,Clientele Limited 
+AHB,Arrowhead Properties Limited B 
+RFG,RFG Holdings Limited 
+AEG,Aveng Group Limited 
+MRF,Merafe Resources Limited 
+GND,Grindrod Limited 
+AEL,Allied Electronics Corporation 
+CAT,Caxton & CTP Publishers & Printers Limited 
+EXP,Exemplar Reitail Limited 
+CLH,City Lodge Hotels Limited 
+IVT,Invicta Holdings Limited 
+SCD,Schroder European Real Estate Investment Trust 
+LEW,Lewis Group Limited 
+ACT,Afrocentric Investment Corp 
+SDO,STADIO Holdings Limited 
+HET,Heriot REIT Limited 
+HIL,Homechoice International plc 
+TDH,Tradehold Limited 
+WEZ,Wesizwe Platinum Limited 
+OAO,Oando PLC 
+NPK,Nampak Limited 
+CTA,Capital Appreciation Limited 
+SYG,Sygnia Limited 
+YYLBEE,YeboYethu (RF) Limited 
+DIA,Dipula Income Fund Limited A 
+SBP,Sabvest Capital Limited 
+OCT,Octodec Investments Limited 
+RMH,RMB Holdings Limited 
+FVT,Fairvest Property Holdings 
+CRP,Capital & Regional plc 
+AVV,Alviva Holdings Limited 
+SUR,Spur Corporation Limited 
+DRA,DRA Global Limited 
+CMH,Combined Motor Holdings Limited 
+TTO,Trustco Group Holdings Limited 
+SEA,Spear Reit Limited 
+MDI,Master Drilling Group Limited 
+ARH,ARB Holdings Limited 
+BWN,Balwin Properties Limited 
+ACS,Acsion Limited 
+BRN,Brimstone Investment Corporation - N Shares 
+SAR,Safari Investments RSA Limited 
+ENX,enX Group Limited 
+EMN,E Media Holdings Limited - N Shares 
+HLM,Hulamin Limited 
+MFL,Metrofile Holdings Limited 
+EPE,EPE Capital Partners Limited 
+OAS,Oasis Crescent Property Fund 
+ORN,Orion Minerals Limited 
+UPL,Universal Partners Limited 
+TEX,Texton Property Fund Limited 
+GPL,Grand Parade Investments Limited 
+BEL,Bell Equipment Limited 
+AYO,AYO Tech Solutions 
+YRK,York Timber Holdings Limited 
+ILU,Indluplace Properties Limited 
+DIB,Dipula Income Fund Limited B 
+HPR,Hosken Passenger Logistics and Rail Limited 
+APF,Accelerate Property Fund Ltd 
+QFH,Quantum Foods Holdings 
+SOLBE1,Sasol Limited - BEE 
+CHP,Choppies Enterprises Limited 
+AHA,Arrowhead Properties Limited A 
+PBG,PBT Group Limited 
+SFN,Sasfin Holdings Limited 
+EOH,EOH Holdings 
+TRE,Trencor Limited 
+TPF,Transcend Residential Property Fund Limited 
+BCF,Bowler Metcalf Limited 
+MST,Mustek Limited 
+FGL,Finbond Group Limited 
+DNB,Deneb Investments Limited 
+SNV,Santova Limited 
+NVS,Novus Holdings Limited 
+MMP,Marshall Monteagle PLC 
+WSL,Wescoal Holdings Limited 
+OLG,Onelogix Group Limited 
+TMT,Trematon Capital Investments Limited 
+ART,Argent Industrial Limited 
+DKR,Deutsche Konsum REIT-AG 
+NWL,Nu-World Holdings Limited 
+KP2,Kore Potash Plc 
+ADR,Adcorp Holdings Limited 
+TON,Tongaat Hulett Limited 
+EPS,Eastern Platinum Limited 
+HUG,Huge Group Limited 
+CND,Conduit Capital Limited 
+CKS,Crookes Brothers Limited 
+TPC,Transpaco Limited 
+CGR,Calgro M3 Holdings Limited 
+ALH,Alaris Holdings Limited 
+VUN,Vunani Limited 
+SEP,Sephaku Holdings Limited 
+NVE,Nvest Financial Holdings Limited 
+AEE,African Equity Empowerment Investments 
+DLT,Delta Property Fund Limited 
+ISB,Insimbi Industrial Holdings Ltd 
+ASC,Ascendis Health Limited 
+RSG,Resource Generation Limited 
+NRL,Newpark REIT Limited 
+RHB,RH Bophelo Limited 
+SOH,South Ocean Holdings 
+WKF,Workforce Holdings Limited 
+BUC,Buffalo Coal Corporation 
+BIK,Brikor Limited 
+TRL,Trellidor Holdings Limited 
+SEB,Sebata Holdings Limited 
+BAU,Bauba Resources Limited 
+AME,African Media Entertainment 
+EMH,E Media Holdings Limited 
+AVL,Advanced Health Limited 
+BRT,Brimstone Investment Corporation 
+ARA,Astoria Investments Limited 
+ETO,Etion Limited 
+ELI,Ellies Holdings Limited 
+LNF,London Finance & Investment Group Plc 
+HUL,Hulisani Limited 
+FSE,Firestone Energy Limited 
+KBO,Kibo Energy PLC 
+PFB,Premier Fishing and Brands 
+REA,Rebosis Property Fund - A Shares 
+RTN,Rex Trueform Group - N Shares 
+CVW,Castleview Property Fund Limited 
+REB,Rebosis Property Fund 
+CMO,Chrometco Limited 
+MCZ,MC Mining Limited 
+CSG,CSG Holdings Limited 
+ISA,ISA Holdings Limited 
+4SI,4Sight Holdings Limited 
+CGN,Cognition Holdings Limited 
+PPR,Putprop Limited 
+EEL,Efora Energy Limited 
+LAB,Labat Africa Limited 
+PMV,Primeserv Group Limited 
+SSK,Stefanutti Stocks Holdings Limited 
+EUZ,Europa Metals Limited 
+RNG,Randgold And Exploration Company 
+JSC,Jasco Electronics Holdings 
+AON,African and Overseas Enterprises - N Shares 
+TLM,TeleMasters Holdings Limited 
+UAT,Union Atlantic Minerals Limited 
+BSR,Basil Read Holdings Limited 
+AHL,AH-Vest Limited 
+HWA,Hwange Colliery Company Limited 
+RTO,Rex Trueform Group 
+SVB,SilverBridge Holdings Limited 
+NCS,Nictus Limited 
+PEM,Pembury Lifestyle Group 
+CAC,CAFCA Limited 
+PSV,PSV Holdings Limited 
+ILE,Imbalie Beauty Limited 
+MRI,Mine Restoration Investments Limited 
+TAS,Taste Holdings Limited 
+AOO,African and Overseas Enterprises Limited 
+VIS,Visual International Holdings Limited 
+ADW,African Dawn Capital 
+ECS,Ecsponent Limited 
+GLI,Go Life International Ltd 
+WEA,WG Wearne Limited 
+NFP,New Frontier Properties Limited 
+NUT,Nutritional Holdings Limited 
+ACZ,Arden Capital Limited 
+PHM,Phumelela Gaming And Leisure Limited 
+RPL,RDI REIT PLC 
+ACE,Accentuate Limited 
+RDI,Rockwell Diamonds Incorporated 
+AFX,African Oxygen Limited 
+ACG,Anchor Group Limited 
+ALP,Atlantic Leaf Properties Limited 
+TBG,Tiso Blackstar Group SE 
+CTK,Cartrack Holdings 
+UCP,Unicorn Capital Partners Limited 
+VLE,Value Group Limited 
+COM,Comair Limited 
+CIL,Consolidated Infrastructure Group 
+EFG,Efficient Group Limited 
+ELR,ELB Group Limited 
+ESR,Esor Limited 
+FDP,Freedom Property Fund Limited 
+GAI,Gaia Infrastructure Capital Limited 
+GRF,Group Five Limited 
+HPB,Hospitality Property Fund - B 
+IDQ,Indequity Group Limited 
+KDV,Kaydav Group Limited 
+MZR,Mazor Group Limited 
+MLE,Mettle Investments Limited 
+MNK,Montauk Holdings Limited 

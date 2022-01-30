@@ -5,3 +5,6 @@ yfinance
 yahoofinancials
 wget
 forex-python
+dash
+dash-dangerously-set-inner-html
+tvDatafeed

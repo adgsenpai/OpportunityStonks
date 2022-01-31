@@ -17,7 +17,7 @@ Found in `research\notebookplayground`
 ![LSTM-Diagram2](./assets/img/LSTM-Diagram2.png)
 
 
-![LSTM-Math](./assets/img/LSTM-Math.png)
+![LSTM-Math](./assets/img/LSTM-math.png)
 
 
 ## In Progress

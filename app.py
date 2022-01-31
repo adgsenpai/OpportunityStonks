@@ -41,10 +41,6 @@ def update_output(value):
             return fig
         except:
             raise dash.exceptions.PreventUpdate
-        
-   
     
-
-
 if __name__ == '__main__':
     app.run_server(debug=True)

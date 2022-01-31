@@ -2,7 +2,7 @@
 
 This application is targeted for the `JSE Market`.
 
-![Stonks](./static/img/stonksmoon.jpg)
+![Stonks](./assets/img/stonksmoon.jpg)
 
 an application that finds the opportunity to buy shares at low that will go to the moon in a few years.
 
@@ -11,10 +11,21 @@ Feel free to look at the notebooks!
 <br>
 Found in `research\notebookplayground`
 
+## About Model
+![LSTM-Diagram](./assets/img/LSTM-Diagram.png)
+
+![LSTM-Diagram2](./assets/img/LSTM-Diagram2.png)
+
+
+![LSTM-Math](./assets/img/LSTM-Math.png)
+
+
+## In Progress
+- Neural Network - Training
+- Dash Web interface
+ 
 ### TODO
 
-- Neural Networks - AI Training
-- Dash Web interface
 - API Hooks
 
 ## Links - Not active yet

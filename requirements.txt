@@ -10,3 +10,8 @@ dash-dangerously-set-inner-html
 tvDatafeed
 tensorflow
 Keras
+Cython
+ephem
+pystan
+fbprophet
+streamlit 

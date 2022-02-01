@@ -12,6 +12,6 @@ tensorflow
 Keras
 Cython
 ephem
-pystan
-fbprophet
+pystan==2.19.1.1
+prophet
 streamlit 

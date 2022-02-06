@@ -20,15 +20,6 @@ Found in `research\notebookplayground`
 ![LSTM-Math](./assets/img/LSTM-math.png)
 
 
-## In Progress
-- Neural Network - Training
-- Dash Web interface
- 
-### TODO
-
-- API Hooks
-
-## Links - Not active yet
 #### To view the live application visit 
 
 [Stonks App](https://stonks.adgstudios.co.za)

@@ -6,19 +6,12 @@ This application is targeted for the `JSE Market`.
 
 an application that finds the opportunity to buy shares at low that will go to the moon in a few years.
 
-## In Production
-Feel free to look at the notebooks!
-<br>
-Found in `research\notebookplayground`
-
 ## About Model
 ![LSTM-Diagram](./assets/img/LSTM-Diagram.png)
 
 ![LSTM-Diagram2](./assets/img/LSTM-Diagram2.png)
 
-
 ![LSTM-Math](./assets/img/LSTM-math.png)
-
 
 #### To view the live application visit 
 

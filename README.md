@@ -31,11 +31,11 @@ Found in `research\notebookplayground`
 ## Links - Not active yet
 #### To view the live application visit 
 
-[Stonks App](stonks.adgstudios.co.za)
+[Stonks App](https://stonks.adgstudios.co.za)
 
 
 #### For more developer docs or more information on the application visit 
 
-[Documentation Website](stonkdocs.adgstudios.co.za)
+[Documentation Website](https://stonkdocs.adgstudios.co.za)
 
 ### Copyright (c) Ashlin Darius Govindasamy 

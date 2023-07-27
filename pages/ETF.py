@@ -11,7 +11,7 @@ import STOCKDATA
 START = "1990-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
-st.title('JSE Stocks')
+st.title('JSE ETF Stocks')
 
 # hide made with streamlit
 hide_streamlit_style = """

@@ -7,40 +7,10 @@ from prophet.plot import plot_plotly
 from plotly import graph_objs as go
 import pandas as pd
 
-START = "2015-01-01"
+START = "1990-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
-st.title('ADG STOCK AI PREDICTION APP')
-footer="""<style>
-a:link , a:visited{
-color: black;
-background-color: transparent;
-text-decoration: none;
-}
-
-a:hover,  a:active {
-color: blue;
-background-color: transparent;
-text-decoration: none;
-
-}
-
-.footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: white;
-color: black;
-text-align: center;
-}
-</style>
-<div class="footer">
-<p>Developed with ❤️ by <a style='display: block; text-align: center;' href="https://adgstudios.co.za" target="_blank">Ashlin Darius Govindasamy</a></p>
-</div>
-"""
-st.markdown(footer,unsafe_allow_html=True)
-
+st.title('Opportunity Stonks App')
 
 stocks = {
 'PRX.JO':'Prosus N.V. ',
@@ -396,7 +366,7 @@ n_years = st.slider('Years of prediction:', 1, 25)
 period = n_years * 365
 
 
-@st.cache
+@st.cache_data
 def load_data(ticker):
     data = yf.download(ticker, START, TODAY)
     data.reset_index(inplace=True)
@@ -416,7 +386,45 @@ def plot_raw_data():
 	fig.layout.update(title_text='Time Series data with Rangeslider', xaxis_rangeslider_visible=True)
 	st.plotly_chart(fig)
 	
+def dividendData():
+	div = yf.Ticker(selected_stock)
+	div = div.dividends
+	div = div.reset_index()
+	div = div.rename(columns={"Date": "ds", "Dividends": "y"})
+	st.subheader('Dividend Payouts')
+	st.write(div.tail())
+	fig = go.Figure()
+	fig.add_trace(go.Scatter(x=div['ds'], y=div['y'], name="dividends"))
+	fig.layout.update(title_text='Dividend Payout Plot', xaxis_rangeslider_visible=True)
+	st.plotly_chart(fig)
+
+	return div
+
+
+def News():
+	# Get the data
+	news = yf.Ticker(selected_stock)
+	news = news.news
+	st.subheader('News')
+
+	df = pd.DataFrame(news)
+	st.table(df)
+
+def FinancialStatements():
+	# Get the data
+	stock = yf.Ticker(selected_stock)
+	stock = stock.financials
+	st.subheader('Financial Statements')
+	st.write(stock.tail())
+	
+
 plot_raw_data()
+
+News()
+
+FinancialStatements()
+
+dividendData()
 
 # Predict forecast with Prophet.
 df_train = data[['Date','Close']]

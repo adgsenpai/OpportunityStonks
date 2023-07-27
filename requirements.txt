@@ -1,7 +1,5 @@
-Cython
 NumPy
 yfinance
-pystan
 prophet
 plotly
 pandas

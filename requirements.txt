@@ -4,4 +4,3 @@ prophet
 plotly
 pandas
 streamlit
-TA-Lib

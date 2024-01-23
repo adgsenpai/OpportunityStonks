@@ -4,3 +4,5 @@ prophet
 plotly
 pandas==1.3.5
 streamlit
+requests
+Pillow

@@ -7,6 +7,10 @@ from prophet.plot import plot_plotly
 from plotly import graph_objs as go
 import pandas as pd
 import STOCKDATA
+import requests
+from PIL import Image
+from io import BytesIO
+
 
 START = "1990-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
@@ -24,6 +28,8 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
 stocks = STOCKDATA.JSE
+
+
 
 
 def format_func(option):
@@ -58,6 +64,11 @@ def load_data(ticker):
 
 
 data = load_data(selected_stock)
+
+
+
+
+
 
 st.subheader('Company Details for '+selected_stock)
 
@@ -110,7 +121,6 @@ def dividendData():
 
 
 
-
 def ReturnTicker():
    return yf.Ticker(selected_stock)
 
@@ -141,24 +151,27 @@ def FinancialStatements():
     #msft.institutional_holders
     #msft.mutualfund_holders
 
-    st.subheader("Major Holders")
-    st.write(ticker.major_holders)
-    st.subheader("Institutional Holders")
-    st.write(ticker.institutional_holders)
-    st.subheader("Mutual Fund Holders")
-    st.write(ticker.mutualfund_holders)
+    try:
+        st.subheader("Major Holders")
+        st.write(ticker.major_holders)
+    except:
+        st.write("No Major Holders")
+    
+    try:
+        st.subheader("Institutional Holders")
+        st.write(ticker.institutional_holders)
+    except:        
+        st.subheader("Mutual Fund Holders")
+        st.write(ticker.mutualfund_holders)
+    
 
     # show options expirations
     #msft.options
-
-    st.subheader("Options Expirations")
-    st.write(ticker.options)
-
-
-
-
-
-
+    try:
+        st.subheader("Options Expirations")
+        st.write(ticker.options)
+    except:
+        st.write("No Options Expirations")
 
 with st.spinner('Loading data...'):
     plot_raw_data()
@@ -180,6 +193,10 @@ with st.spinner('Computing Future Stock Prices...'):
     m.fit(df_train)
     future = m.make_future_dataframe(periods=period)
     forecast = m.predict(future)
+    
+
+    
+    
 
     # Show and plot forecast
     st.subheader('Forecast data')
@@ -192,3 +209,94 @@ with st.spinner('Computing Future Stock Prices...'):
     st.write("Forecast components")
     fig2 = m.plot_components(forecast)
     st.write(fig2)
+
+def News():
+    # Remove .JO from selected_stock
+    stock_symbol = selected_stock.replace('JO', '')
+    
+    # Fetch news data from Yahoo Finance
+    response = requests.get(f"https://query2.finance.yahoo.com/v1/finance/search?q={stock_symbol}",headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36(KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'})
+    print(f'https://query2.finance.yahoo.com/v1/finance/search?q={stock_symbol}')
+    
+    if response.status_code == 200:
+        news_data = response.json()        
+        # Extract 'quotes' from news_data if available
+        st.write('# News')
+        if 'news' in news_data:             
+             for news in news_data['news']:    
+                    with st.expander(f"{news['title']}"):
+                        # Display the publisher and link
+                        st.markdown(f"**Publisher:** {news['publisher']}")
+                        st.markdown(f"[Read More]({news['link']})")
+
+                        # Display the thumbnail image if available
+                        if 'thumbnail' in news and 'resolutions' in news['thumbnail']:
+                            # Fetching the first available image resolution
+                            thumbnail_url = news['thumbnail']['resolutions'][0]['url']
+                            response = requests.get(thumbnail_url)
+                            img = Image.open(BytesIO(response.content))
+                            st.image(img, width=300)  # Adjust width as needed
+
+                        # Display related tickers if available
+                        if 'relatedTickers' in news and news['relatedTickers']:
+                            st.markdown(f"**Related Tickers:** {', '.join(news['relatedTickers'])}")
+
+                        st.markdown("---")  # Separator line
+        else:
+            st.write('# News')
+            st.write("No quotes found in the response.")
+    else:
+            st.write('# News')
+            st.write('No news found for this stock.')
+     
+ticker = yf.Ticker(selected_stock)
+ticker_info = ticker.info
+     
+        
+# Company General Information
+with st.expander("Company General Information"):
+    st.write(f"**Address:** {ticker_info['address1']}, {ticker_info['address2']}, {ticker_info['city']}, {ticker_info['country']}, {ticker_info['zip']}")
+    st.write(f"**Phone:** {ticker_info['phone']}")
+    st.write(f"**Website:** {ticker_info['website']}")
+    st.write(f"**Industry:** {ticker_info['industry']}")
+    # ... (other general information)
+
+# Financial Information
+with st.expander("Financial Information"):
+    # Assuming these keys exist in your data
+    st.write(f"**Market Cap:** {ticker_info.get('marketCap', 'N/A')}")
+    st.write(f"**Previous Close:** {ticker_info.get('previousClose', 'N/A')}")
+    st.write(f"**Open Price:** {ticker_info.get('open', 'N/A')}")
+    # ... (other financial information)
+    
+
+# Key Personnel
+with st.expander("Key Personnel"):
+    # Assuming 'companyOfficers' is a list of dictionaries containing officer info
+    for officer in ticker_info.get('companyOfficers', []):
+        st.write(f"**Name:** {officer.get('name', 'N/A')}")
+        st.write(f"**Title:** {officer.get('title', 'N/A')}")
+        st.write(f"**Age:** {officer.get('age', 'N/A')}")
+        st.write(f"**Total Pay:** {officer.get('totalPay', 'N/A')}")
+        st.write("---")  # Separator line
+
+# Risk Assessment
+with st.expander("Risk Assessment"):
+    st.write(f"**Audit Risk:** {ticker_info.get('auditRisk', 'N/A')}")
+    st.write(f"**Board Risk:** {ticker_info.get('boardRisk', 'N/A')}")
+    st.write(f"**Compensation Risk:** {ticker_info.get('compensationRisk', 'N/A')}")
+        
+# Business Summary
+with st.expander("Business Summary"):
+    st.write(ticker_info.get('longBusinessSummary', 'N/A'))
+
+# Performance Metrics
+with st.expander("Performance Metrics"):
+    st.write(f"**Earnings Growth:** {ticker_info.get('earningsGrowth', 'N/A')}")
+    st.write(f"**Revenue Growth:** {ticker_info.get('revenueGrowth', 'N/A')}")
+    st.write(f"**Return on Assets:** {ticker_info.get('returnOnAssets', 'N/A')}")
+    st.write(f"**Return on Equity:** {ticker_info.get('returnOnEquity', 'N/A')}")
+    # ... (other performance metrics)        
+        
+with st.spinner('Loading News data...'):
+    News()

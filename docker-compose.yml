@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    environment:
+      - PORT=8501
+      - STREAMLIT_THEME=light
+      - TZ=Africa/Johannesburg
+    volumes:
+      - .:/app
+    command: streamlit run --server.port 8501 JSE.py

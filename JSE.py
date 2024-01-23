@@ -46,14 +46,23 @@ with st.sidebar:
 
 @st.cache_data
 def load_data(ticker):
-    data = yf.download(ticker, START, TODAY)
-    data.reset_index(inplace=True)
-    return data
+    try:
+        data = yf.download(ticker, START, TODAY)
+        data.reset_index(inplace=True)
+        # remove outliers from data remove if standard deviation is less than 3
+        data = data[data['Close'].between(data['Close'].quantile(.01), data['Close'].quantile(.99))]        
+        return data
+    except Exception as e:
+        st.error(f"Failed to download data: {e}")
+        return pd.DataFrame()  # Return an empty DataFrame in case of an error
 
 
 data = load_data(selected_stock)
 
-st.subheader('Raw data')
+st.subheader('Company Details for '+selected_stock)
+
+st.subheader('Stock Data')
+
 st.write(data.tail())
 
 # Plot raw data
@@ -82,42 +91,79 @@ def dividendData():
     fig.layout.update(title_text='Dividend Payout Plot',
                       xaxis_rangeslider_visible=True)
     st.plotly_chart(fig)
+
+    ticker = yf.Ticker(selected_stock)
+
+    # show actions (dividends, splits, capital gains)
+    st.subheader('Actions')
+    st.write(ticker.actions)
+
+    st.subheader('Splits')
+    st.write(ticker.splits)
+
+    st.subheader('Capital Gains')
+    st.write(ticker.capital_gains)
+
     return div
 
 
-def News():
-    # Get the data
-    news = yf.Ticker(selected_stock)
-    news = news.news
-    st.subheader('News')
 
-    df = pd.DataFrame(news)
-    # dorp uuid
-    df = df.drop(['uuid', 'providerPublishTime', 'thumbnail',
-                 'relatedTickers', 'type'], axis=1)
 
-    # make link clickable
-    def make_clickable(val):
-        return '<a target="_blank" href="{}">{}</a>'.format(val, val)
 
-    df = df.style.format({'link': make_clickable})
-    df = df.to_html(escape=False) + '<br></br>'
-    st.write(df, unsafe_allow_html=True)
 
+def ReturnTicker():
+   return yf.Ticker(selected_stock)
 
 def FinancialStatements():
     # Get the data
-    stock = yf.Ticker(selected_stock)
+    ticker = yf.Ticker(selected_stock)
+    stock = ticker
     stock = stock.financials
     st.subheader('Financial Statements')
     st.write(stock.tail())
+
+ 
+    st.subheader('Income Statement')
+    st.write(ticker.income_stmt)
+    st.subheader('Quarterly Income Statement')
+    st.write(ticker.quarterly_income_stmt)
+    st.subheader('Balance Sheet')
+    st.write(ticker.balance_sheet)
+    st.subheader('Quarterly Balance Sheet')
+    st.write(ticker.quarterly_balance_sheet)
+    st.subheader('Cash Flow')
+    st.write(ticker.cashflow)
+    st.subheader('Quarterly Cash Flow')
+    st.write(ticker.quarterly_cashflow)
+
+    # show holders
+    #msft.major_holders
+    #msft.institutional_holders
+    #msft.mutualfund_holders
+
+    st.subheader("Major Holders")
+    st.write(ticker.major_holders)
+    st.subheader("Institutional Holders")
+    st.write(ticker.institutional_holders)
+    st.subheader("Mutual Fund Holders")
+    st.write(ticker.mutualfund_holders)
+
+    # show options expirations
+    #msft.options
+
+    st.subheader("Options Expirations")
+    st.write(ticker.options)
+
+
+
+
+
 
 
 with st.spinner('Loading data...'):
     plot_raw_data()
 
-with st.spinner('Loading data...'):
-    News()
+
 
 with st.spinner('Loading data...'):
     FinancialStatements()

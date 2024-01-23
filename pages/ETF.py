@@ -45,10 +45,15 @@ with st.sidebar:
 
 @st.cache_data
 def load_data(ticker):
-    data = yf.download(ticker, START, TODAY)
-    data.reset_index(inplace=True)
-    return data
-
+    try:
+        data = yf.download(ticker, START, TODAY)
+        data.reset_index(inplace=True)
+        # remove outliers from data remove if standard deviation is less than 3
+        data = data[data['Close'].between(data['Close'].quantile(.01), data['Close'].quantile(.99))]        
+        return data
+    except Exception as e:
+        st.error(f"Failed to download data: {e}")
+        return pd.DataFrame()  # Return an empty DataFrame in case of an error
 
 data = load_data(selected_stock)
 
@@ -84,24 +89,6 @@ def dividendData():
     return div
 
 
-def News():
-    # Get the data
-    news = yf.Ticker(selected_stock)
-    news = news.news
-    st.subheader('News')
-
-    df = pd.DataFrame(news)
-    # dorp uuid
-    df = df.drop(['uuid', 'providerPublishTime', 'thumbnail',
-                 'relatedTickers', 'type'], axis=1)
-
-    # make link clickable
-    def make_clickable(val):
-        return '<a target="_blank" href="{}">{}</a>'.format(val, val)
-
-    df = df.style.format({'link': make_clickable})
-    df = df.to_html(escape=False) + '<br></br>'
-    st.write(df, unsafe_allow_html=True)
 
 
 def FinancialStatements():
@@ -111,12 +98,8 @@ def FinancialStatements():
     st.subheader('Financial Statements')
     st.write(stock.tail())
 
-
 with st.spinner('Loading data...'):
     plot_raw_data()
-
-with st.spinner('Loading data...'):
-    News()
 
 with st.spinner('Computing Future Stock Prices...'):
     # Predict forecast with Prophet.
